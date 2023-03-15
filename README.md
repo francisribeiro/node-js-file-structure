@@ -9,50 +9,50 @@ Here is an overview of the folder structure in this project:
 ```
 project-root/
 │
-├── config/ # Configuration files and environment variables
+├── config/                   # Configuration files and environment variables
 │ ├── default.json
 │ ├── production.json
 │ └── development.json
 │
-├── src/ # Source code directory
-│ ├── api/ # API-related files (routes, controllers, etc.)
+├── src/                      # Source code directory
+│ ├── api/                    # API-related files (routes, controllers, etc.)
 │ │ ├── routes/
 │ │ ├── controllers/
 │ │ └── middlewares/
 │ │
-│ ├── core/ # Core components and utilities
+│ ├── core/                   # Core components and utilities
 │ │ ├── errors/
 │ │ ├── helpers/
 │ │ ├── validators/
 │ │ └── event-emitters/
 │ │
-│ ├── domain/ # Domain entities, models and business logic
+│ ├── domain/                 # Domain entities, models and business logic
 │ │ ├── models/
 │ │ ├── services/
 │ │ └── repositories/
 │ │
-│ ├── infrastructure/ # Infrastructure implementations (DB, external services, etc.)
+│ ├── infrastructure/         # Infrastructure implementations (DB, external services, etc.)
 │ │ ├── db/
 │ │ │ ├── migrations/
 │ │ │ └── seeders/
 │ │ ├── external-services/
 │ │ └── messaging/
 │ │
-│ └── index.js # Application entry point
+│ └── index.js                # Application entry point
 │
-├── test/ # Test files and utilities
+├── test/                     # Test files and utilities
 │ ├── integration/
 │ ├── unit/
 │ └── utils/
 │
-├── .dockerignore # Files and directories to ignore for Docker
-├── Dockerfile # Docker build instructions
-├── docker-compose.yml # Docker Compose configuration for local development
-├── .gitignore # Files and directories to ignore for Git
-├── .eslintrc.json # ESLint configuration
-├── .prettierrc.json # Prettier configuration
-├── package.json # Project metadata and dependencies
-└── README.md # Project documentation
+├── .dockerignore             # Files and directories to ignore for Docker
+├── Dockerfile                # Docker build instructions
+├── docker-compose.yml        # Docker Compose configuration for local development
+├── .gitignore                # Files and directories to ignore for Git
+├── .eslintrc.json            # ESLint configuration
+├── .prettierrc.json          # Prettier configuration
+├── package.json              # Project metadata and dependencies
+└── README.md                 # Project documentation
 ```
 
 ## Project Structure
